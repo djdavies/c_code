@@ -1,12 +1,9 @@
-#include <math.h>     
-#include <stdio.h>     
+#include <math.h>
+#include <stdio.h>
 
-int main(void)     
-{     
+int main(int argc, char**argv) {
     double x = 4.0;
-    double result = 0.0;     
-
-    result = sqrt(x);     
-    printf("The square root of %lf is %lf\n", x, result);     
-    return 0;     
-} 
+    double res = 0;
+    double res2 = sqrt(x);
+    printf("The square root of %d is %f", x, res);
+}
