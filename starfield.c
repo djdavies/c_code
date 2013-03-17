@@ -5,7 +5,7 @@ Idea: add few lines so stars have random colours
 */
 #include <stdlib.h>
 #include <SDL.h>
-#define MAX_STARS 100
+#define MAX_STARS 1000
 typedef struct
 {
 	int x, y, speed;
